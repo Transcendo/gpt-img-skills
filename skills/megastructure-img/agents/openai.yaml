@@ -1,0 +1,4 @@
+interface:
+  display_name: "巨构灵魂生图"
+  short_description: "自动横竖屏生成高清巨构图"
+  default_prompt: "Use $megastructure-img with GPT Image 2 to directly generate a cinematic megastructure image, inferring horizontal or vertical framing from this subject: "
