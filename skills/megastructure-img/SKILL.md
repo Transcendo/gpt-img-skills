@@ -19,6 +19,103 @@ When a user gives a subject, directly call Codex image generation / GPT Image 2 
 
 Only ask a follow-up question when the request is genuinely blocked, such as missing an attached reference image that the user asked to edit.
 
+## Publishing Title Assistant
+
+This is an auxiliary output system for publishing, not a reason to put words inside the image.
+
+Default image generation must keep the image clean: no title, no Chinese text, no captions, no logo, no watermark, no typography. Megastructure images should feel like an unknown film still or recovered world fragment. Text belongs outside the image unless the user explicitly asks for a designed cover/poster.
+
+When the user asks for **发布**, **标题**, **文案**, **简介**, **B站投稿**, **抖音发布**, **小红书图文**, **封面方案**, **一组图**, **组图**, **系列**, **选题**, or similar publishing help, generate the image(s) first and then add a concise Chinese publishing package.
+
+Important usage pattern: users often want **one group of images around one theme**, not one isolated image. Treat `一组图 / 组图 / 系列图 / 一套图` as one unified theme with several visual variations. Keep the whole group under one core theme, one emotional route, and one publication title system unless the user explicitly asks for multiple unrelated topics.
+
+### Output Modes
+
+- **Image-only mode**: default. Generate the image and reply briefly, e.g. `已生成。`
+- **Publishing mode**: image plus one primary title, one short description, tags, and optional alternate titles.
+- **Series/group mode**: several images or visual directions under one theme, plus one group title and per-image subtitles when useful.
+- **Cover/poster mode**: only if explicitly requested. Generate a clean no-text base image first when possible, then suggest external typography placement and copy. Do not ask the image model to render Chinese text by default because it often creates artifacts.
+
+### Publishing Package Shape
+
+Use this compact shape when the user requests publishing support:
+
+```text
+标题：巨构：[short poetic title]
+
+简介：
+[one or two short lines that imply a world, not a plot explanation]
+
+标签：
+#巨构 #AI绘画 #砼核 #科幻美学 [platform/topic tags]
+
+备用标题：
+1. 巨构：[alternate]
+2. 巨构：[alternate]
+3. 巨构：[alternate]
+```
+
+For a group of images, use one group theme plus per-image subtitles:
+
+```text
+组图主题：雪原尽头的巨型城市墙
+组图标题：巨构：雪原尽头没有回声
+
+1. 巨构：墙外没有回声
+2. 巨构：白昼停在这里
+3. 巨构：最后的道路
+4. 巨构：不可进入之城
+```
+
+### Title Taste Rules
+
+Good megastructure titles are short, poetic, and unresolved. They should make viewers feel there is a world behind the image without explaining it.
+
+Prefer:
+
+- `巨构：没有告别`
+- `巨构：永恒的沉默`
+- `巨构：钢铁草原`
+- `巨构：白昼的边界`
+- `巨构：神明离开后的大厅`
+
+Avoid:
+
+- Tool-forward titles: `AI巨构8K壁纸第12期`, `Midjourney提示词分享`, `GPT生成巨构图`.
+- Over-explained titles: `一个人在雪原上看见巨大城市墙的科幻图片`.
+- Cheap hype: `震撼全网`, `顶级大片`, `史诗级神图`, `视觉炸裂`.
+- Full plot summaries. Keep the mystery.
+
+Use title routes that match the visual route:
+
+- **Boundary / wall / gate**: `白昼的边界`, `墙外没有回声`, `天空从这里断开`, `不可进入之地`, `世界尽头的门`.
+- **Pilgrimage / witness**: `无人回应的朝圣`, `最后的目击者`, `我们只是短暂路过`, `他站在尺度之外`.
+- **Unreturnable home / dead city**: `他们曾经住在这里`, `城市忘记了人的形状`, `没有人回来的街区`, `旧日住宅层`.
+- **Monumental order / concretecore**: `沉默的混凝土`, `秩序没有温度`, `巨人的中枢`, `冷白色的神殿`.
+- **Nature swallowed by structure**: `冰原之下`, `海是一面镜子`, `风穿过旧神的骨架`, `草原停止生长的地方`.
+- **Sacred / golden / light**: `烈日永照的黄金乡`, `光之窒息`, `圣城没有入口`, `太阳被困在墙里`.
+
+### Description Taste Rules
+
+Descriptions should be one or two quiet lines. Write like a recovered caption, not marketing copy.
+
+Examples:
+
+```text
+所有道路都停在这里。
+墙没有门，也没有等待谁回来。
+```
+
+```text
+造物主早就离开了。
+只剩风，还在替它守夜。
+```
+
+```text
+草原继续向前生长。
+直到它碰见一堵没有名字的墙。
+```
+
 ## Reference-Case Aesthetic Kernel
 
 Use these rules as the default visual taste. They distill the high-performing Jugou megastructure analysis and should override the old habit of making every image dark, cold, heavy, black-metal, underwater, or apocalyptic.

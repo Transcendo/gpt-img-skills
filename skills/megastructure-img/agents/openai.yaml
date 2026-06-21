@@ -1,4 +1,4 @@
 interface:
   display_name: "巨构灵魂生图"
-  short_description: "生成通透克制、空气透视、电影质感的巨构图像"
+  short_description: "生成通透克制、空气透视、电影质感的巨构图像，并可辅助输出发布标题/简介"
   default_prompt: "Use $megastructure-img to generate a luminous restrained cinematic megastructure image from this subject:"
