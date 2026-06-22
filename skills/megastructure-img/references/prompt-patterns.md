@@ -14,6 +14,7 @@ Use this file only to strengthen the hidden image-generation prompt. Do not prin
 - Obscurity And Non-Finality
 - Monumental Order, Materials, And Light
 - Emotional Routes
+- Core Route Modules
 - Structure Archetypes
 - Scale Proof
 - Body Anchors
@@ -166,6 +167,82 @@ Avoid defaulting to black metal, dead-blue night, warm golden-hour romance, glos
 - **Monumental Order**: a state-scale archive, temple, factory, data vault, tribunal wall, or institutional machine whose order is colder than human life.
 - **Luminous Relic**: a pale curved wall, silver city-face, sea-wall, grassland ring, or misty gate that feels ancient, restrained, and unreadable without being dark.
 
+## Core Route Modules
+
+Use these modules when a short subject needs a stronger route. Pick one dominant module unless the user explicitly asks for a hybrid. The route is an internal mechanism, not a label to print.
+
+### Wasteland Relic / 末日废土旧世界遗迹
+
+Psychological mechanism: the old world is dead, but its infrastructure remains too large for the present.
+
+Prompt ingredients:
+
+- `a silent old-world relic whose original function is dead but whose scale still dominates the present`
+- `one dominant ruined infrastructure silhouette: broken dam, severed bridge, exposed subway spine, dead airport terminal, rusted launch ring, dry reservoir wall, abandoned arcology`
+- `ash plain, cracked salt flat, dry basin, wind-shaped dust road, dead grassland, pale desert, exposed seabed`
+- `tiny non-heroic survivor, small vehicle, distant walkers, broken camp, birds or animals as scale proof`
+- `weathered concrete, rust scars, exposed rebar, dead cables, sand-stained walls, collapsed spans, dust-packed seams`
+- `readable daylight, pale dust, silver edge light, open shadows, restrained amber late sun`
+
+Avoid:
+
+- zombies, guns, explosions, chase scenes, action survivor poses
+- red apocalypse skies, nuclear mushroom clouds, generic rubble piles
+- gas-mask portraits, Mad Max cosplay, heroic poster composition
+
+Failure fix:
+
+- If it becomes ordinary wasteland, remove weapons/vehicles-as-heroes and enlarge one infrastructure relic until it reads as a world-scale force.
+- If it becomes too dirty/dark, add pale dust daylight, open shadows, and a clean dominant silhouette.
+
+### Dream Megastructure / 奇妙梦境巨构
+
+Psychological mechanism: the world is unforgettable because spatial logic has quietly softened or failed.
+
+Prompt ingredients:
+
+- `one recognizable place with one impossible spatial rule`
+- `sky staircase, cloud street, water-filled classroom, bedroom window facing a city-cliff, floating apartment slab, giant white door in a field, endless playground structure, impossible station`
+- `familiar anchor: school corridor, residential window, bed, streetlight, stair, train platform, playground, mall atrium, rain puddle, cloud, sea, sunset field`
+- `gravity tilts, rooms open into sky, seasons overlap, reflections become architecture, doors lead nowhere, distant buildings are too large`
+- `milky daylight, dusk gradients, soft blue, pale peach, muted cyan, washed yellow, clean air, restrained filmic color`
+- `tiny witness, small bicycle, lone bed, distant train, or small figure at the edge of the impossible space`
+
+Avoid:
+
+- candy fantasy, cute mascot imagery, cartoon saturation
+- random AI collage, floating-object clutter, meme weirdcore eyes
+- cheap backrooms repetition, horror monster logic, decorative surrealism with no dominant form
+
+Failure fix:
+
+- If it becomes too random, remove secondary surreal objects and force one recognizable anchor plus one dominant impossible form.
+- If it becomes childish, reduce saturation, add stillness, distance, and filmic daylight.
+
+### Titan Alien Relic / 外星泰坦文明遗迹
+
+Psychological mechanism: human rules do not apply; humans arrive late to a non-human relic that does not explain itself.
+
+Prompt ingredients:
+
+- `non-human civilization remains older and larger than any human architecture`
+- `planet-surface gate, orbital shell fragment, star-harvesting ring, titan rib-canyon, black monolith field, cloud-buried dock, ice-moon signal tower, impossible arcology, suspended underside blocking the sky`
+- `alien desert, basalt plain, ice moon, methane shore, cloud sea, red dust valley, obsidian crater, luminous mineral field, derelict landing zone`
+- `tiny astronaut, rover, probe, expedition camp, ship silhouette, small human team as scale proof`
+- `matte mineral surfaces, pale ceramic stone, oxidized alien alloys, basalt, non-human panel repetition, impossible seams, erosion, star-burn scars, unlabelled maintenance-scale marks`
+- `cold stellar light, eclipsed sun, aurora wall, luminous atmospheric haze, bright planetary rim, restrained gold/white energy as structure`
+
+Avoid:
+
+- blue-purple crystal cities, generic spaceship concept art, clean sci-fi showroom design
+- lasers, battles, crowds, readable UI, heroic astronauts
+- alien monster portraits, fantasy temples with alien decoration, fully explained blueprint views
+
+Failure fix:
+
+- If it becomes spaceship art, remove vehicles as subjects and make one relic embedded in planet-scale terrain.
+- If it becomes fantasy alien city, replace shiny color with matte mineral surfaces, erosion, cold stellar light, and tiny probe-scale marks.
+
 ## Structure Archetypes
 
 - city-cliff of endless windows, service shafts, and dead balconies
@@ -212,6 +289,9 @@ Avoid defaulting to black metal, dead-blue night, warm golden-hour romance, glos
 
 ## Subject Mapping
 
+- 末日, 废土, 旧世界, ruins, wasteland, disaster aftermath: Wasteland Relic. Use dead infrastructure as the main subject; avoid survival-action posters, zombies, weapons, red skies, and rubble clutter.
+- 梦, 梦境, dreamcore, childhood memory, impossible rooms, 奇妙空间: Dream Megastructure. Use one familiar place plus one impossible spatial rule; avoid candy fantasy and random weirdcore collage.
+- 外星文明, 泰坦文明, Dyson sphere, alien ruins, orbital shell, star-scale engineering: Titan Alien Relic. Make one non-human relic embedded in planet-scale terrain; avoid generic spaceships, crystal cities, lasers, and heroic astronauts.
 - palace, temple, shrine, city, school: Boundary, Pilgrimage, or Monumental Order.
 - hometown, apartment, childhood, memory: Unreturnable Home.
 - archive, court, state, factory, school, data center: Monumental Order.
@@ -252,3 +332,6 @@ Use only if the user asks for video, motion, cover art with music mood, or a pro
 - If nature is weak: add wind-carved terrain, snow basin, salt flat, cliff shadows, natural forces shaping the scene.
 - If it is too busy: use empty terrain, one quiet focal human, simple horizon, sparse silhouettes only.
 - If text appears: strengthen no text, no logo, no watermark, no signature, no readable signs, no typography.
+- If Wasteland Relic becomes generic apocalypse: remove weapons, gas masks, red skies, zombies, explosions, and rubble clutter; make one dead infrastructure relic dominate the frame in readable pale daylight.
+- If Dream Megastructure becomes random weirdcore: remove extra floating props and meme horror cues; keep one familiar anchor, one impossible spatial rule, and one dominant readable form.
+- If Titan Alien Relic becomes spaceship/fantasy city art: remove vehicles/UI/crystals as the subject; embed one matte non-human relic into planet-scale terrain with tiny probes or astronauts only as scale proof.

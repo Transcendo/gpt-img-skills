@@ -1,6 +1,6 @@
 ---
 name: megastructure-img
-description: "Directly generate premium cinematic sublime megastructure images with Codex image generation / GPT Image 2 from short user subjects, including automatic horizontal/vertical social-video framing and a luminous restrained film-still finish. Use when the user asks for 巨构图, 巨构感, 巨构灵魂生图, megastructure image, B站/bilibili 横屏, 抖音/Douyin/TikTok 竖屏, 高清横屏, 高清竖屏, 电影感, 高级感, 胶片感, luminous overcast, 通透, 低饱和, 空气透视, 边缘光, monumental sci-fi scene, post-human landscape, human smallness, impossible walls, city-cliffs, rings, gates, suspended undersides, civilization-as-geology, 崇高, 克制, 冷静, 秩序感, or asks to generate/refine a megastructure image from a short theme. Default behavior: call the image generation tool immediately; do not output prompt breakdowns unless the user explicitly asks for prompts."
+description: "Directly generate premium cinematic sublime megastructure images with Codex image generation / GPT Image 2 from short user subjects, including automatic horizontal/vertical social-video framing, luminous restrained film-still finish, and route-based subject translation. Use when the user asks for 巨构图, 巨构感, 巨构灵魂生图, 末日废土, 旧世界遗迹, 奇妙梦境, dream megastructure, 外星文明, 泰坦文明, alien/titan relic, megastructure image, B站/bilibili 横屏, 抖音/Douyin/TikTok 竖屏, 高清横屏, 高清竖屏, 电影感, 高级感, 胶片感, luminous overcast, 通透, 低饱和, 空气透视, 边缘光, monumental sci-fi scene, post-human landscape, human smallness, impossible walls, city-cliffs, rings, gates, suspended undersides, civilization-as-geology, 崇高, 克制, 冷静, 秩序感, or asks to generate/refine a megastructure image from a short theme. Default behavior: call the image generation tool immediately; do not output prompt breakdowns unless the user explicitly asks for prompts."
 ---
 
 # Megastructure Image Generation
@@ -132,6 +132,78 @@ Use these rules as the default visual taste. They distill the high-performing Ju
 - **Repeat a motif mentally**: for single images, imply a world that could support a six-shot sequence: scale shock, breathing space, structure detail, depth path, motif return, unresolved final frame.
 - **Do not copy references**: learn composition mechanics and mood; do not reproduce the exact three vertical curved walls, exact grass-slope human placement, exact tunnel with warm side patches, or exact golden city-wall angle.
 
+## Core Route System
+
+This skill is a single mega-skill with route-based subject translation. Do not split these routes into separate skills unless a route becomes useful outside the megastructure premise.
+
+Default route selection should be silent. The user gives a short subject; the skill chooses the strongest route, then builds one coherent image prompt. A route is not a style label. It is a psychological mechanism that explains why the image feels sublime.
+
+### Route 1: Wasteland Relic / 末日废土旧世界遗迹
+
+Use when the subject mentions 末日, 废土, 旧世界, 荒原, 遗迹, 断桥, 水坝, 干涸海床, 废弃机场, 废弃太空港, ruined infrastructure, post-apocalyptic world, dead civilization, or survivor-scale remains.
+
+Core mechanism: the old world is dead, but its infrastructure remains too large for the present. The image should not be about survival action; it should be about a tiny witness standing under the leftover scale of a civilization that no longer answers.
+
+Visual grammar:
+
+- One dominant old-world structure: broken dam, severed bridge, exposed subway spine, collapsed orbital elevator, dead airport terminal, desert shipyard, rusted launch ring, highway canyon, dry reservoir wall, or abandoned arcology.
+- Entry terrain: ash plain, cracked salt flat, dry basin, wind-shaped dust road, dead grassland, pale desert, or exposed seabed leading the eye toward the relic.
+- Scale witness: one tiny back-facing survivor, a small vehicle, a broken camp, distant walkers, birds, or animals. The witness is a measuring device, not an action hero.
+- Materials: concrete, weathered steel, eroded asphalt, dust-packed seams, rust scars, collapsed spans, exposed rebar, sand-stained walls, dead cables, and scale scars.
+- Light: readable daylight, pale dust, silver edge light, open shadows, restrained amber only as late sun or small distant signal.
+
+Avoid: zombies, guns, chase scenes, explosions, red apocalypse skies, Mad Max cosplay, gas-mask portraits, generic rubble piles, heroic survivor posters, and full destruction spectacle.
+
+Example subjects:
+
+- `末日废土，干涸海床里的旧世界水坝`
+- `荒原尽头的废弃太空港`
+- `旧高速公路像峡谷一样断在白色城市墙前`
+
+### Route 2: Dream Megastructure / 奇妙梦境巨构
+
+Use when the subject mentions 梦, 梦境, 奇妙, 童年, 记忆, 云上街道, 漂浮城市, surreal dream, dreamcore, impossible rooms, soft unreality, or non-logical but emotionally vivid spaces.
+
+Core mechanism: the world is not scary because it is hostile; it is unforgettable because spatial logic has quietly softened or failed. The viewer recognizes ordinary places, but their scale, continuity, season, gravity, or adjacency is wrong.
+
+Visual grammar:
+
+- One dominant dream form: sky staircase, cloud street, water-filled classroom, bedroom window opening onto a city-cliff, floating apartment slab, giant white door in a field, endless playground structure, impossible station, or road passing through multiple seasons.
+- Familiar anchor: school corridor, residential window, bed, streetlight, stair, train platform, playground, mall atrium, rain puddle, cloud, sea, or sunset field.
+- Abnormal deviation: gravity tilts, rooms open into sky, distant buildings are too large, seasons overlap, reflections become architecture, doors lead nowhere, or scale changes without explanation.
+- Palette: can be more colorful than the default skill, but still restrained and filmic. Prefer milky daylight, dusk gradients, soft blue, pale peach, muted cyan, washed yellow, and clean air over candy saturation.
+- Scale witness: one tiny childlike or adult silhouette, a small bicycle, a lone bed, a distant train, or a tiny figure at the edge of the impossible space.
+
+Avoid: cute fantasy, candyland, AI collage weirdness, cheap backrooms repetition, horror monsters, meme weirdcore eyes, random floating objects, overly saturated cartoon color, and decorative surrealism with no dominant form.
+
+Example subjects:
+
+- `奇妙梦境，云上的街道通向巨大的白色门`
+- `梦里学校走廊尽头是一片海`
+- `黄昏 playground 后面升起一座不该存在的城市墙`
+
+### Route 3: Titan Alien Relic / 外星泰坦文明遗迹
+
+Use when the subject mentions 外星文明, 泰坦文明, 星际文明, alien megastructure, Titan relic, Dyson sphere, ancient spacefaring civilization, non-human ruins, star-scale engineering, orbital shell, or planetary machine.
+
+Core mechanism: human rules do not apply. The structure should feel older, larger, and less interested in humans than any human architecture. The tiny witness is not a conqueror or explorer hero; it is a late insect arriving after the civilization has already stopped explaining itself.
+
+Visual grammar:
+
+- One dominant non-human form: planet-surface gate, orbital shell fragment, star-harvesting ring, titan rib-canyon, black monolith field, cloud-buried dock, ice-moon signal tower, impossible arcology, suspended underside blocking the sky, or non-Euclidean city-cliff.
+- Entry terrain: alien desert, basalt plain, ice moon, methane shore, cloud sea, red dust valley, obsidian crater, luminous mineral field, or derelict landing zone.
+- Scale witness: tiny astronaut, rover, probe, expedition camp, ship silhouette, small human team, or dust-like birds/particles when humans are absent.
+- Materials: not shiny generic sci-fi. Use matte mineral surfaces, pale ceramic stone, oxidized alien alloys, basalt, non-human panel repetition, impossible seams, erosion, star-burn scars, and unlabelled maintenance-scale marks.
+- Light: cold stellar light, eclipsed sun, aurora wall, luminous atmospheric haze, bright planetary rim, or restrained gold/white energy as structure, not decoration.
+
+Avoid: blue-purple crystal cities, generic spaceship concept art, laser battles, crowds, readable sci-fi UI, heroic astronauts, alien monster portraits, fantasy temples with aliens pasted on, and fully explained clean blueprint views.
+
+Example subjects:
+
+- `外星泰坦文明，冰卫星地平线上的巨型信号塔`
+- `星球表面露出一截环绕恒星的古老结构`
+- `人类探险队站在非欧几何黑色方碑群前`
+
 ## Design Philosophy
 
 Generate the sublime, not merely a beautiful large object. Translate these ideas into concrete image language:
@@ -175,6 +247,7 @@ Use this visual core:
 Always include:
 
 - The inferred aspect ratio and composition rules from **Aspect And Platform Rules**.
+- A silent route choice from **Core Route System** or **Route Selection**; translate the subject through the route's psychological mechanism rather than listing style words.
 - One tiny back-facing human or sparse tiny silhouettes near the bottom of the frame.
 - A ground-level, low-angle, base-of-structure, or edge-of-terrain perspective when possible; avoid top-down drone mastery unless the user explicitly asks for it.
 - A natural terrain base: grassland, tundra, shore, seabed, salt flat, desert basin, cliff valley, ice field, ash plain, mountain shadow, or a subject-specific equivalent.
@@ -217,6 +290,9 @@ Use platform-aware composition:
 
 Pick one dominant emotional route internally:
 
+- **Wasteland Relic**: old-world infrastructure, dead highways, dry reservoirs, broken dams, abandoned airports, launch rings, ruined arcologies, and survivor-scale remains. Keep it quiet and structural, not zombie/action apocalypse.
+- **Dream Megastructure**: familiar places become spatially impossible through softened dream logic: cloud streets, impossible schools, water-filled rooms, floating apartments, endless playgrounds, giant doors, and mismatched seasons. Keep it vivid but restrained, not candy fantasy or random weirdcore.
+- **Titan Alien Relic**: non-human civilization remains, orbital shells, star-scale rings, ice-moon towers, alien gates, basalt plains, and impossible geometry. Keep humans small and late, not heroic explorers or generic spaceship art.
 - **Boundary**: walls, gates, cliffs, dams, quarantine edges, world edge.
 - **Pilgrimage**: exhausted walkers, long path, distant city-wall, quiet approach.
 - **Unreturnable Home**: faint windows, dead domestic scale, abandoned housing/city/school.
@@ -228,6 +304,9 @@ When in doubt, choose the route that best turns the subject into a force larger 
 
 ## Subject Translation Notes
 
+- For **末日 / 废土 / 旧世界遗迹 / wasteland**: do not make a survival action poster. Turn the subject into a silent old-world relic whose original function is dead but whose scale still dominates the present: dry reservoirs, broken dams, dead airports, highway canyons, launch rings, exposed subway spines, rusted shipyards, or ruined arcologies. Use pale dust, readable daylight, tiny witnesses, and one dominant ruin silhouette; avoid zombies, guns, red skies, explosions, and generic rubble.
+- For **梦 / 梦境 / 奇妙 / dreamcore**: do not make candy fantasy or random weird collage. Start from one recognizable space, then make one spatial rule fail: a school corridor opens onto the sea, a cloud street reaches a giant white door, a bedroom window faces a city-cliff, or a playground becomes an impossible structure. Keep one dominant form, one tiny witness, soft but disciplined color, and filmic restraint.
+- For **外星文明 / 泰坦文明 / alien / titan / Dyson / 星际文明**: do not make generic spaceship concept art or crystal fantasy cities. Translate the subject into non-human relic scale: orbital shell fragments, ice-moon signal towers, star-harvesting rings, basalt gate fields, cloud-buried docks, suspended undersides, or impossible city-cliffs. Use tiny probes/astronauts/camps only as scale proof; no lasers, UI, battles, or heroic exploration poses.
 - For **grassland / Inner Mongolia / desert / tundra**: default to wind-shaped terrain, small witness, pale wall edges, and luminous atmospheric distance. Use open sky for broad pilgrimage/panorama scenes; for reference-like detail requests, reduce sky and press the terrain against a close cropped wall or ring base. Avoid neon cyberpunk unless explicitly requested.
 - For **ocean / underwater**: do not default to abyssal black. Prefer luminous shallow-sea shelf, blue-green water columns, sun shafts, readable silhouettes, suspended particles, and a giant submerged wall/ring/city-cliff fading into depth.
 - For **golden / sacred / pilgrimage**: use warm light as a focused narrative target inside a cool environment, not as a full-frame yellow filter.
@@ -240,13 +319,14 @@ Write the image prompt as one polished natural-language block for GPT Image 2:
 
 ```text
 Create a cinematic sublime megastructure image, [inferred aspect and platform constraints]. Subject: [subject].
+Route: [silent selected route: Wasteland Relic / Dream Megastructure / Titan Alien Relic / Boundary / Pilgrimage / Unreturnable Home / Cosmic Indifference / Monumental Order / Luminous Relic], translated through its psychological mechanism, not as a visible label.
 Visual thesis: [one sentence about human smallness, a single overwhelming form, and calm scale fracture].
 Composition: [horizontal panorama or vertical tower framing], low/base/ground-level viewpoint when possible, one tiny non-heroic witness near the bottom/lower third, vast [terrain], one impossible [structure] dominating the sky/horizon, cropped by the frame and disappearing into haze/cloud/mist/dust/water/distance. For high-detail reference-like outputs, use near-distance monumental crop, minimal sky, compressed scale, wall/structure surfaces occupying most of the frame, and terrain pressed against the base.
 Reference-case composition logic: one dominant readable silhouette, large breathing negative space, tiny witness scale, natural terrain as an entry path, close crop when detail matters, edge light and atmospheric perspective instead of underexposed darkness.
-Details: [subject-specific terrain, material, scale proof, weather, obscurity, body anchor, restrained light, low-saturation palette]. For engineered mineral surfaces, layer large ribs/buttresses/panels with fine erosion streaks, scrape lines, chipped edges, cracks, stains, patch repairs, tiny maintenance marks, ladder-like traces, and base grime; use raking side light so the texture reads.
+Details: [route-specific terrain, familiar anchor, abnormal deviation, material, scale proof, weather, obscurity, body anchor, restrained light, low-saturation palette]. For Wasteland Relic, make dead infrastructure quiet and non-heroic; for Dream Megastructure, make one familiar spatial rule fail while preserving a strong dominant form; for Titan Alien Relic, make the relic non-human, matte, ancient, and uninterested in human logic. For engineered mineral surfaces, layer large ribs/buttresses/panels with fine erosion streaks, scrape lines, chipped edges, cracks, stains, patch repairs, tiny maintenance marks, ladder-like traces, and base grime; use raking side light so the texture reads.
 Cinematic finish: premium cinema still quality, luminous restrained film look, controlled contrast, soft highlight roll-off, preserved highlights, open shadow detail, clear midtone separation, subtle 35mm film grain, restrained halation around distant lights, volumetric haze, precise atmospheric perspective, clean filmic texture.
 Mood: quiet post-human silence, sublime loneliness, controlled order, contemplative distance, restrained filmic realism.
 Negative constraints: no text, captions, subtitles, logo, watermark, UI, app interface, typography, readable signs, hero pose, battle, crowd spectacle, oversaturated colors, warm decorative beauty, fully explained clean blueprint view, underexposed darkness by default, overprocessed HDR, plastic CGI, excessive lens flare, teal-orange cliche, muddy blacks, crushed shadows, blown highlights, oversharpened digital render.
 ```
 
-Read [references/prompt-patterns.md](references/prompt-patterns.md) only when the subject needs extra structure, stronger visual routes, deeper sublime logic, cinematic look presets, video/BGM extension language, or failure fixes.
+Read [references/prompt-patterns.md](references/prompt-patterns.md) only when the subject needs extra structure, stronger visual routes, deeper sublime logic, cinematic look presets, video/BGM extension language, or failure fixes. Use [references/route-smoke-tests.md](references/route-smoke-tests.md) when validating the three current core routes after editing this skill.
