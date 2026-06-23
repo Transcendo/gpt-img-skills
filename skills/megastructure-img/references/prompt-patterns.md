@@ -195,29 +195,30 @@ Failure fix:
 - If it becomes ordinary wasteland, remove weapons/vehicles-as-heroes and enlarge one infrastructure relic until it reads as a world-scale force.
 - If it becomes too dirty/dark, add pale dust daylight, open shadows, and a clean dominant silhouette.
 
-### Dream Megastructure / 奇妙梦境巨构
+### Dreamcore Megastructure / 梦核巨构
 
-Psychological mechanism: the world is unforgettable because spatial logic has quietly softened or failed.
+Psychological mechanism: the world is unforgettable because spatial logic has quietly softened or failed. This route is dreamcore sublime, not cheerful fantasy: familiar places become beautiful, empty, slightly uncanny, and too large to measure.
 
 Prompt ingredients:
 
-- `one recognizable place with one impossible spatial rule`
+- `one recognizable place with one impossible spatial rule, translated as 梦核巨构 rather than generic 奇妙梦境`
 - `sky staircase, cloud street, water-filled classroom, bedroom window facing a city-cliff, floating apartment slab, giant white door in a field, endless playground structure, impossible station`
 - `familiar anchor: school corridor, residential window, bed, streetlight, stair, train platform, playground, mall atrium, rain puddle, cloud, sea, sunset field`
 - `gravity tilts, rooms open into sky, seasons overlap, reflections become architecture, doors lead nowhere, distant buildings are too large`
 - `milky daylight, dusk gradients, soft blue, pale peach, muted cyan, washed yellow, clean air, restrained filmic color`
 - `tiny witness, small bicycle, lone bed, distant train, or small figure at the edge of the impossible space`
+- `controlled dreamcore unease, quiet wonder, lucid childhood-memory distance, empty but breathable space`
 
 Avoid:
 
-- candy fantasy, cute mascot imagery, cartoon saturation
+- candy fantasy, cute mascot imagery, cartoon saturation, cheerful healing-dream imagery
 - random AI collage, floating-object clutter, meme weirdcore eyes
-- cheap backrooms repetition, horror monster logic, decorative surrealism with no dominant form
+- cheap backrooms repetition, horror monster logic, decorative surrealism with no dominant form, full-frame oppressive gloom that hides the spatial idea
 
 Failure fix:
 
 - If it becomes too random, remove secondary surreal objects and force one recognizable anchor plus one dominant impossible form.
-- If it becomes childish, reduce saturation, add stillness, distance, and filmic daylight.
+- If it becomes childish, reduce saturation, add stillness, distance, filmic daylight, and a single uncanny spatial failure.
 
 ### Titan Alien Relic / 外星泰坦文明遗迹
 
@@ -290,7 +291,7 @@ Failure fix:
 ## Subject Mapping
 
 - 末日, 废土, 旧世界, ruins, wasteland, disaster aftermath: Wasteland Relic. Use dead infrastructure as the main subject; avoid survival-action posters, zombies, weapons, red skies, and rubble clutter.
-- 梦, 梦境, dreamcore, childhood memory, impossible rooms, 奇妙空间: Dream Megastructure. Use one familiar place plus one impossible spatial rule; avoid candy fantasy and random weirdcore collage.
+- 梦核, 梦核巨构, 梦境巨构, dreamcore, childhood memory, impossible rooms, 奇妙空间: Dreamcore Megastructure. Use one familiar place plus one impossible spatial rule; treat 奇妙梦境 as an alias for dreamcore megastructure, not a promise of cute/healing fantasy; avoid candy fantasy and random weirdcore collage.
 - 外星文明, 泰坦文明, Dyson sphere, alien ruins, orbital shell, star-scale engineering: Titan Alien Relic. Make one non-human relic embedded in planet-scale terrain; avoid generic spaceships, crystal cities, lasers, and heroic astronauts.
 - palace, temple, shrine, city, school: Boundary, Pilgrimage, or Monumental Order.
 - hometown, apartment, childhood, memory: Unreturnable Home.
@@ -333,5 +334,5 @@ Use only if the user asks for video, motion, cover art with music mood, or a pro
 - If it is too busy: use empty terrain, one quiet focal human, simple horizon, sparse silhouettes only.
 - If text appears: strengthen no text, no logo, no watermark, no signature, no readable signs, no typography.
 - If Wasteland Relic becomes generic apocalypse: remove weapons, gas masks, red skies, zombies, explosions, and rubble clutter; make one dead infrastructure relic dominate the frame in readable pale daylight.
-- If Dream Megastructure becomes random weirdcore: remove extra floating props and meme horror cues; keep one familiar anchor, one impossible spatial rule, and one dominant readable form.
+- If Dreamcore Megastructure becomes random weirdcore: remove extra floating props and meme horror cues; keep one familiar anchor, one impossible spatial rule, one dominant readable form, and controlled dreamcore unease.
 - If Titan Alien Relic becomes spaceship/fantasy city art: remove vehicles/UI/crystals as the subject; embed one matte non-human relic into planet-scale terrain with tiny probes or astronauts only as scale proof.

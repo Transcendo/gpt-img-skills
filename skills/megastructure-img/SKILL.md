@@ -1,6 +1,6 @@
 ---
 name: megastructure-img
-description: "Directly generate premium cinematic sublime megastructure images with Codex image generation / GPT Image 2 from short user subjects, including automatic horizontal/vertical social-video framing, luminous restrained film-still finish, and route-based subject translation. Use when the user asks for 巨构图, 巨构感, 巨构灵魂生图, 末日废土, 旧世界遗迹, 奇妙梦境, dream megastructure, 外星文明, 泰坦文明, alien/titan relic, megastructure image, B站/bilibili 横屏, 抖音/Douyin/TikTok 竖屏, 高清横屏, 高清竖屏, 电影感, 高级感, 胶片感, luminous overcast, 通透, 低饱和, 空气透视, 边缘光, monumental sci-fi scene, post-human landscape, human smallness, impossible walls, city-cliffs, rings, gates, suspended undersides, civilization-as-geology, 崇高, 克制, 冷静, 秩序感, or asks to generate/refine a megastructure image from a short theme. Default behavior: call the image generation tool immediately; do not output prompt breakdowns unless the user explicitly asks for prompts."
+description: "Directly generate premium cinematic sublime megastructure images with Codex image generation / GPT Image 2 from short user subjects, including automatic horizontal/vertical social-video framing, luminous restrained film-still finish, and route-based subject translation. Use when the user asks for 巨构图, 巨构感, 巨构灵魂生图, 末日废土, 旧世界遗迹, 梦核巨构, dreamcore megastructure, 外星文明, 泰坦文明, alien/titan relic, megastructure image, B站/bilibili 横屏, 抖音/Douyin/TikTok 竖屏, 高清横屏, 高清竖屏, 电影感, 高级感, 胶片感, luminous overcast, 通透, 低饱和, 空气透视, 边缘光, monumental sci-fi scene, post-human landscape, human smallness, impossible walls, city-cliffs, rings, gates, suspended undersides, civilization-as-geology, 崇高, 克制, 冷静, 秩序感, or asks to generate/refine a megastructure image from a short theme. Default behavior: call the image generation tool immediately; do not output prompt breakdowns unless the user explicitly asks for prompts."
 ---
 
 # Megastructure Image Generation
@@ -160,25 +160,26 @@ Example subjects:
 - `荒原尽头的废弃太空港`
 - `旧高速公路像峡谷一样断在白色城市墙前`
 
-### Route 2: Dream Megastructure / 奇妙梦境巨构
+### Route 2: Dreamcore Megastructure / 梦核巨构
 
-Use when the subject mentions 梦, 梦境, 奇妙, 童年, 记忆, 云上街道, 漂浮城市, surreal dream, dreamcore, impossible rooms, soft unreality, or non-logical but emotionally vivid spaces.
+Use when the subject mentions 梦核, 梦核巨构, 梦境巨构, dreamcore, dreamcore megastructure, impossible rooms, soft unreality, childhood memory, cloud streets, floating cities, or non-logical but emotionally vivid spaces. Treat older/looser phrases such as 奇妙梦境 or 梦境 as aliases for this dreamcore-megastructure route, not as cheerful fairy-tale or healing fantasy.
 
-Core mechanism: the world is not scary because it is hostile; it is unforgettable because spatial logic has quietly softened or failed. The viewer recognizes ordinary places, but their scale, continuity, season, gravity, or adjacency is wrong.
+Core mechanism: the world is not scary because it is hostile; it is unforgettable because spatial logic has quietly softened or failed. This is dreamcore sublime: familiar spaces feel beautiful, empty, slightly uncanny, and too large to measure. The viewer recognizes ordinary places, but their scale, continuity, season, gravity, or adjacency is wrong.
 
 Visual grammar:
 
-- One dominant dream form: sky staircase, cloud street, water-filled classroom, bedroom window opening onto a city-cliff, floating apartment slab, giant white door in a field, endless playground structure, impossible station, or road passing through multiple seasons.
+- One dominant dreamcore form: sky staircase, cloud street, water-filled classroom, bedroom window opening onto a city-cliff, floating apartment slab, giant white door in a field, endless playground structure, impossible station, or road passing through multiple seasons.
 - Familiar anchor: school corridor, residential window, bed, streetlight, stair, train platform, playground, mall atrium, rain puddle, cloud, sea, or sunset field.
 - Abnormal deviation: gravity tilts, rooms open into sky, distant buildings are too large, seasons overlap, reflections become architecture, doors lead nowhere, or scale changes without explanation.
 - Palette: can be more colorful than the default skill, but still restrained and filmic. Prefer milky daylight, dusk gradients, soft blue, pale peach, muted cyan, washed yellow, and clean air over candy saturation.
 - Scale witness: one tiny childlike or adult silhouette, a small bicycle, a lone bed, a distant train, or a tiny figure at the edge of the impossible space.
+- Mood: controlled dreamcore unease, quiet wonder, lucid childhood-memory distance, empty but breathable space. It may feel lonely or uncanny, but should not become horror, dystopian punishment, or a therapeutic cute dream.
 
-Avoid: cute fantasy, candyland, AI collage weirdness, cheap backrooms repetition, horror monsters, meme weirdcore eyes, random floating objects, overly saturated cartoon color, and decorative surrealism with no dominant form.
+Avoid: cute fantasy, candyland, cheerful healing-dream imagery, AI collage weirdness, cheap backrooms repetition, horror monsters, meme weirdcore eyes, random floating objects, overly saturated cartoon color, decorative surrealism with no dominant form, and full-frame oppressive gloom that hides the spatial idea.
 
 Example subjects:
 
-- `奇妙梦境，云上的街道通向巨大的白色门`
+- `梦核巨构，云上的街道通向巨大的白色门`
 - `梦里学校走廊尽头是一片海`
 - `黄昏 playground 后面升起一座不该存在的城市墙`
 
@@ -291,7 +292,7 @@ Use platform-aware composition:
 Pick one dominant emotional route internally:
 
 - **Wasteland Relic**: old-world infrastructure, dead highways, dry reservoirs, broken dams, abandoned airports, launch rings, ruined arcologies, and survivor-scale remains. Keep it quiet and structural, not zombie/action apocalypse.
-- **Dream Megastructure**: familiar places become spatially impossible through softened dream logic: cloud streets, impossible schools, water-filled rooms, floating apartments, endless playgrounds, giant doors, and mismatched seasons. Keep it vivid but restrained, not candy fantasy or random weirdcore.
+- **Dreamcore Megastructure**: familiar places become spatially impossible through softened dreamcore logic: cloud streets, impossible schools, water-filled rooms, floating apartments, endless playgrounds, giant doors, and mismatched seasons. Keep it empty, vivid, uncanny, and restrained; not candy fantasy, cute healing dream, or random weirdcore collage.
 - **Titan Alien Relic**: non-human civilization remains, orbital shells, star-scale rings, ice-moon towers, alien gates, basalt plains, and impossible geometry. Keep humans small and late, not heroic explorers or generic spaceship art.
 - **Boundary**: walls, gates, cliffs, dams, quarantine edges, world edge.
 - **Pilgrimage**: exhausted walkers, long path, distant city-wall, quiet approach.
@@ -305,7 +306,7 @@ When in doubt, choose the route that best turns the subject into a force larger 
 ## Subject Translation Notes
 
 - For **末日 / 废土 / 旧世界遗迹 / wasteland**: do not make a survival action poster. Turn the subject into a silent old-world relic whose original function is dead but whose scale still dominates the present: dry reservoirs, broken dams, dead airports, highway canyons, launch rings, exposed subway spines, rusted shipyards, or ruined arcologies. Use pale dust, readable daylight, tiny witnesses, and one dominant ruin silhouette; avoid zombies, guns, red skies, explosions, and generic rubble.
-- For **梦 / 梦境 / 奇妙 / dreamcore**: do not make candy fantasy or random weird collage. Start from one recognizable space, then make one spatial rule fail: a school corridor opens onto the sea, a cloud street reaches a giant white door, a bedroom window faces a city-cliff, or a playground becomes an impossible structure. Keep one dominant form, one tiny witness, soft but disciplined color, and filmic restraint.
+- For **梦核 / 梦境巨构 / dreamcore / dreamcore megastructure**: do not make cheerful fairy-tale fantasy or random weird collage. Start from one recognizable space, then make one spatial rule fail: a school corridor opens onto the sea, a cloud street reaches a giant white door, a bedroom window faces a city-cliff, or a playground becomes an impossible structure. Keep one dominant form, one tiny witness, soft but disciplined color, readable luminous air, and controlled dreamcore unease.
 - For **外星文明 / 泰坦文明 / alien / titan / Dyson / 星际文明**: do not make generic spaceship concept art or crystal fantasy cities. Translate the subject into non-human relic scale: orbital shell fragments, ice-moon signal towers, star-harvesting rings, basalt gate fields, cloud-buried docks, suspended undersides, or impossible city-cliffs. Use tiny probes/astronauts/camps only as scale proof; no lasers, UI, battles, or heroic exploration poses.
 - For **grassland / Inner Mongolia / desert / tundra**: default to wind-shaped terrain, small witness, pale wall edges, and luminous atmospheric distance. Use open sky for broad pilgrimage/panorama scenes; for reference-like detail requests, reduce sky and press the terrain against a close cropped wall or ring base. Avoid neon cyberpunk unless explicitly requested.
 - For **ocean / underwater**: do not default to abyssal black. Prefer luminous shallow-sea shelf, blue-green water columns, sun shafts, readable silhouettes, suspended particles, and a giant submerged wall/ring/city-cliff fading into depth.
@@ -319,13 +320,13 @@ Write the image prompt as one polished natural-language block for GPT Image 2:
 
 ```text
 Create a cinematic sublime megastructure image, [inferred aspect and platform constraints]. Subject: [subject].
-Route: [silent selected route: Wasteland Relic / Dream Megastructure / Titan Alien Relic / Boundary / Pilgrimage / Unreturnable Home / Cosmic Indifference / Monumental Order / Luminous Relic], translated through its psychological mechanism, not as a visible label.
+Route: [silent selected route: Wasteland Relic / Dreamcore Megastructure / Titan Alien Relic / Boundary / Pilgrimage / Unreturnable Home / Cosmic Indifference / Monumental Order / Luminous Relic], translated through its psychological mechanism, not as a visible label.
 Visual thesis: [one sentence about human smallness, a single overwhelming form, and calm scale fracture].
 Composition: [horizontal panorama or vertical tower framing], low/base/ground-level viewpoint when possible, one tiny non-heroic witness near the bottom/lower third, vast [terrain], one impossible [structure] dominating the sky/horizon, cropped by the frame and disappearing into haze/cloud/mist/dust/water/distance. For high-detail reference-like outputs, use near-distance monumental crop, minimal sky, compressed scale, wall/structure surfaces occupying most of the frame, and terrain pressed against the base.
 Reference-case composition logic: one dominant readable silhouette, large breathing negative space, tiny witness scale, natural terrain as an entry path, close crop when detail matters, edge light and atmospheric perspective instead of underexposed darkness.
-Details: [route-specific terrain, familiar anchor, abnormal deviation, material, scale proof, weather, obscurity, body anchor, restrained light, low-saturation palette]. For Wasteland Relic, make dead infrastructure quiet and non-heroic; for Dream Megastructure, make one familiar spatial rule fail while preserving a strong dominant form; for Titan Alien Relic, make the relic non-human, matte, ancient, and uninterested in human logic. For engineered mineral surfaces, layer large ribs/buttresses/panels with fine erosion streaks, scrape lines, chipped edges, cracks, stains, patch repairs, tiny maintenance marks, ladder-like traces, and base grime; use raking side light so the texture reads.
+Details: [route-specific terrain, familiar anchor, abnormal deviation, material, scale proof, weather, obscurity, body anchor, restrained light, low-saturation palette]. For Wasteland Relic, make dead infrastructure quiet and non-heroic; for Dreamcore Megastructure, make one familiar spatial rule fail while preserving a strong dominant form, luminous readable air, and controlled dreamcore unease; for Titan Alien Relic, make the relic non-human, matte, ancient, and uninterested in human logic. For engineered mineral surfaces, layer large ribs/buttresses/panels with fine erosion streaks, scrape lines, chipped edges, cracks, stains, patch repairs, tiny maintenance marks, ladder-like traces, and base grime; use raking side light so the texture reads.
 Cinematic finish: premium cinema still quality, luminous restrained film look, controlled contrast, soft highlight roll-off, preserved highlights, open shadow detail, clear midtone separation, subtle 35mm film grain, restrained halation around distant lights, volumetric haze, precise atmospheric perspective, clean filmic texture.
-Mood: quiet post-human silence, sublime loneliness, controlled order, contemplative distance, restrained filmic realism.
+Mood: quiet post-human silence, sublime loneliness, controlled order, contemplative distance, restrained filmic realism. For Dreamcore Megastructure, bias the mood toward controlled dreamcore unease, empty breathable wonder, and lucid childhood-memory distance rather than cheerful healing fantasy or oppressive horror.
 Negative constraints: no text, captions, subtitles, logo, watermark, UI, app interface, typography, readable signs, hero pose, battle, crowd spectacle, oversaturated colors, warm decorative beauty, fully explained clean blueprint view, underexposed darkness by default, overprocessed HDR, plastic CGI, excessive lens flare, teal-orange cliche, muddy blacks, crushed shadows, blown highlights, oversharpened digital render.
 ```
 

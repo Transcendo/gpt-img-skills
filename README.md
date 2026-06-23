@@ -8,7 +8,7 @@
 
 | Skill | 方向 | 适合场景 |
 | --- | --- | --- |
-| [`megastructure-img`](skills/megastructure-img/SKILL.md) | 静态巨构崇高视觉系统：末日废土、奇妙梦境、外星/泰坦文明等 route 化主题转译 | B站横屏封面、抖音/小红书竖屏封面、科幻氛围图、巨物叙事视觉、系列化图像栏目 |
+| [`megastructure-img`](skills/megastructure-img/SKILL.md) | 静态巨构崇高视觉系统：末日废土、梦核巨构、外星/泰坦文明等 route 化主题转译 | B站横屏封面、抖音/小红书竖屏封面、科幻氛围图、巨物叙事视觉、系列化图像栏目 |
 
 ## 仓库结构
 
@@ -46,7 +46,7 @@ skills/
 | Route | 中文方向 | 心理机制 | 典型主题 |
 | --- | --- | --- | --- |
 | Wasteland Relic | 末日废土 / 旧世界遗迹 | 旧世界已死，但基础设施仍以过大的尺度压住现在 | 干涸海床里的水坝、废弃太空港、断裂高速、旧机场、荒原城市墙 |
-| Dream Megastructure | 奇妙梦境巨构 | 熟悉空间的逻辑温柔失效，醒来后仍然忘不掉 | 云上街道、水下教室、天空楼梯、漂浮住宅、黄昏 playground 后的巨墙 |
+| Dreamcore Megastructure | 梦核巨构 | 熟悉空间的逻辑温柔失效，形成美丽、空旷、微妙不安的梦核崇高感 | 云上街道、水下教室、天空楼梯、漂浮住宅、黄昏 playground 后的巨墙 |
 | Titan Alien Relic | 外星 / 泰坦文明遗迹 | 人类规则完全不适用，人类只是迟到的微小见证者 | 冰卫星信号塔、恒星环残片、非欧几何方碑群、星球表面的巨门 |
 
 这些 route 仍属于同一个主 skill，不拆成多个 skill。只有当某条 route 脱离“巨构崇高”也能稳定服务独立需求时，才考虑拆分。
@@ -93,6 +93,6 @@ skills/
 
 ## 内容方向
 
-近期重点不是新增一堆独立 skill，而是把 `megastructure-img` 做成主 mega skill：一个稳定基调，多条 route，默认静态图优先。当前已经落定 Wasteland Relic、Dream Megastructure、Titan Alien Relic 三条核心路线；roadmap 中的 7 条路线会按稳定性逐步进入主 skill。
+近期重点不是新增一堆独立 skill，而是把 `megastructure-img` 做成主 mega skill：一个稳定基调，多条 route，默认静态图优先。当前已经落定 Wasteland Relic、Dreamcore Megastructure、Titan Alien Relic 三条核心路线；roadmap 中的 7 条路线会按稳定性逐步进入主 skill。
 
 这个 repo 的核心价值是让可复用的生图能力逐步产品化：少写一次性 prompt，多沉淀可调用、可迭代、可发布的风格资产。

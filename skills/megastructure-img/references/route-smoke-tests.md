@@ -39,31 +39,32 @@ Must avoid:
 
 - zombies, guns, gas-mask portraits, explosions, red apocalypse sky, action pose, rubble clutter.
 
-## Case 2: Dream Megastructure
+## Case 2: Dreamcore Megastructure
 
 Input:
 
 ```text
-小红书竖屏，奇妙梦境，云上的街道通向巨大的白色门
+小红书竖屏，梦核巨构，云上的街道通向巨大的白色门
 ```
 
 Expected internal route:
 
 ```text
-Dream Megastructure
+Dreamcore Megastructure
 ```
 
 Expected prompt ingredients:
 
 - one recognizable street, stair, school, platform, room, or playground anchor;
 - one impossible spatial rule: street rising into clouds, door too large for any building, rooms opening into sky, reflections becoming architecture;
-- one dominant dream form, not many random surreal objects;
+- one dominant dreamcore form, not many random surreal objects;
 - tiny figure, bicycle, bed, distant train, or similar scale witness;
-- soft but disciplined color: milky daylight, pale peach, muted cyan, washed yellow, clean air.
+- soft but disciplined color: milky daylight, pale peach, muted cyan, washed yellow, clean air;
+- controlled dreamcore unease: empty but breathable, lucid childhood-memory distance, not cheerful healing fantasy.
 
 Must avoid:
 
-- candy fantasy, cute mascots, random floating-object clutter, meme weirdcore eyes, backrooms-yellow repetition, cartoon saturation.
+- candy fantasy, cute mascots, cheerful healing-dream imagery, random floating-object clutter, meme weirdcore eyes, backrooms-yellow repetition, cartoon saturation, full-frame oppressive gloom that hides the spatial idea.
 
 ## Case 3: Titan Alien Relic
 
